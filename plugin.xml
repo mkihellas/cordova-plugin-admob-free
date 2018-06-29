@@ -45,18 +45,18 @@
             </feature>
         </config-file>
 
-        <source-file src="src/android/banner/BannerExecutor.java" target-dir="src/name/ratson/cordova/admob/banner" />
-        <source-file src="src/android/banner/BannerListener.java" target-dir="src/name/ratson/cordova/admob/banner" />
-        <source-file src="src/android/interstitial/InterstitialExecutor.java" target-dir="src/name/ratson/cordova/admob/interstitial" />
-        <source-file src="src/android/interstitial/InterstitialListener.java" target-dir="src/name/ratson/cordova/admob/interstitial" />
-        <source-file src="src/android/rewardvideo/RewardVideoExecutor.java" target-dir="src/name/ratson/cordova/admob/rewardvideo" />
-        <source-file src="src/android/rewardvideo/RewardVideoListener.java" target-dir="src/name/ratson/cordova/admob/rewardvideo" />
+        <resource-file src="src/android/banner/BannerExecutor.java" target-dir="src/name/ratson/cordova/admob/banner/BannerExecutor.java" />
+        <resource-file src="src/android/banner/BannerListener.java" target-dir="src/name/ratson/cordova/admob/banner/BannerListener.java" />
+        <resource-file src="src/android/interstitial/InterstitialExecutor.java" target-dir="src/name/ratson/cordova/admob/interstitial/InterstitialExecutor.java" />
+        <resource-file src="src/android/interstitial/InterstitialListener.java" target-dir="src/name/ratson/cordova/admob/interstitial/InterstitialListener.java" />
+        <resource-file src="src/android/rewardvideo/RewardVideoExecutor.java" target-dir="src/name/ratson/cordova/admob/rewardvideo/RewardVideoExecutor.java" />
+        <resource-file src="src/android/rewardvideo/RewardVideoListener.java" target-dir="src/name/ratson/cordova/admob/rewardvideo/RewardVideoListener.java" />
 
-        <source-file src="src/android/AbstractExecutor.java" target-dir="src/name/ratson/cordova/admob" />
-        <source-file src="src/android/Actions.java" target-dir="src/name/ratson/cordova/admob" />
-        <source-file src="src/android/AdMob.java" target-dir="src/name/ratson/cordova/admob" />
-        <source-file src="src/android/AdMobConfig.java" target-dir="src/name/ratson/cordova/admob" />
-        <source-file src="src/android/CordovaEventBuilder.java" target-dir="src/name/ratson/cordova/admob" />
+        <resource-file src="src/android/AbstractExecutor.java" target-dir="src/name/ratson/cordova/admob/AbstractExecutor.java" />
+        <resource-file src="src/android/Actions.java" target-dir="src/name/ratson/cordova/admob/Actions.java" />
+        <resource-file src="src/android/AdMob.java" target-dir="src/name/ratson/cordova/admob/AdMob.java" />
+        <resource-file src="src/android/AdMobConfig.java" target-dir="src/name/ratson/cordova/admob/AdMobConfig.java" />
+        <resource-file src="src/android/CordovaEventBuilder.java" target-dir="src/name/ratson/cordova/admob/CordovaEventBuilder.java" />
     </platform>
 
     <platform name="ios">
@@ -66,6 +66,6 @@
             </feature>
         </config-file>
         <header-file src="src/ios/CDVAdMob.h" />
-        <source-file src="src/ios/CDVAdMob.m" />
+        <resource-file src="src/ios/CDVAdMob.m" />
     </platform>
 </plugin>
